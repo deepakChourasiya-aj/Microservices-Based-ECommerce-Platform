@@ -4,18 +4,13 @@ A **scalable, event-driven e-commerce system** built using a microservices archi
 Each service is independently deployable and communicates through REST APIs and asynchronous messaging.
 The project demonstrates **modular design, inter-service communication, and real-world system scalability principles**.
 
-#### Product Catalog Service : https://github.com/deepakChourasiya-aj/ProductCatalogService
-#### Auth Service : https://github.com/deepakChourasiya-aj/UserAuthService
-#### Communication/Notification Service : https://github.com/deepakChourasiya-aj/CommunicationService
-#### Payment Service : https://github.com/deepakChourasiya-aj/PaymentService
-
 ---
 
 ## ⚙️ Architecture Overview
 
 The platform consists of multiple microservices, each responsible for a distinct business function:
 
-| Service                        | Description                                                              | Repository                                                                              |
+| Service                        | Description                                                              | Repository/Code                                                                           |
 | ------------------------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | 🧾 **Product Catalog Service** | Handles product listing, filtering, and inventory management.            | [Product Catalog Service](https://github.com/deepakChourasiya-aj/ProductCatalogService) |
 | 🔐 **Authentication Service**  | Manages user registration, login, and JWT-based authentication.          | [Auth Service](https://github.com/deepakChourasiya-aj/UserAuthService)                  |
